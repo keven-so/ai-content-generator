@@ -27,7 +27,7 @@ function billing() {
     }
   }, [searchParams]);
 
-  const verifyPayment = async (sessionId) => {
+  const verifyPayment = async (sessionId: string) => {
     try {
       const response = await fetch('/api/verify-payment', {
         method: 'POST',
