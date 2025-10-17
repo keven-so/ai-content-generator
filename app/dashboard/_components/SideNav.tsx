@@ -40,7 +40,7 @@ function SideNav() {
   return (
     <div className='h-screen relative p-5 shadow-sm border bg-white'>
         <div className='flex justify-center'>
-        <Image src={'/customaize-logo.webp'} alt='Customaize AI' width={150} height={80} className='object-contain' />
+        <Image src={'/customaize-logo.webp'} alt='Customaize AI' width={150} height={120} priority className='object-contain' />
         </div>
         <hr className='my-6 border' />
         <div className='mt-3'>
